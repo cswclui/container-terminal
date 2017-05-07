@@ -24,10 +24,17 @@ bower install kubernetes-container-terminal --save
 To see a simple running example git clone this repo and run
 
 ```
-npm install
-grunt depends
+git clone https://github.com/lth2015/container-terminal.git
+cd container-terminal
+bower install kubernetes-container-terminal --save
 firefox index.html
 ```
+
+it looks this:
+
+![](entrypoint.png)
+
+![](exec.png)
 
 This will install any required dependencies necessary to run the ```index.html``` demo.
 
